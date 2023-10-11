@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/euclid-circular-a" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link href="style/style.css" rel="stylesheet" />
+    <title>Dell</title>
+</head>
+<body>
+    <header class="container menu">
+        <img src="img/menu__logo.png" alt="Dell" width="70" height="70"/>
+        <div class="menu__links">
+            <div class="links__container">
+                <a href="#">Главная</a>
+                <a href="#">Каталог</a>
+                <a href="#">Новости</a>
+                <a href="#">Наш АСЦ</a>
+                <a href="#">Контакты</a>
+            </div>
+        </div>
+        <div class="menu__search">
+            <form action="" method="post">
+                <button class="search__button"><img src="img/menu__search.png" alt="Найти на сайте..." width="20" height="20"/></button>
+                <input type="search" name="" id="search">
+            </form>
+        </div>
+        <div class="menu__icons">
+            <span class="hidden">Мария</span>
+            <div class="icons__item icons__item_user">
+                <img src="img/menu__user.png" alt="Личный кабинет" width="49" height="49"/>
+                <div class="user__dropdown hidden">
+                    <div class="dropdown__container">
+                        <div class="dropdown__item"><img src="img/menu__user.png" alt="Личный кабинет" width="49" height="49"/>Мария</div>
+                        <div class="dropdown__item"><a href="#">Личный кабинет</a></div>
+                        <div class="dropdown__item"><a href="#">История заказов</a></div>
+                        <div class="dropdown__item"><a href="#">Персональные предложения</a></div>
+                        <div class="dropdown__item"><a href="#">Выйти</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="icons__item icons__item_lines"><a href="#"><img src="img/menu__lines.png" alt=""/></a></div>
+            <div class="icons__item icons__item_fav"><a href="#"><img src="img/menu__favorites.png" alt="Избранное"/></a></div>
+            <div class="icons__item icons__item_cart"><a href="#"><img src="img/menu__cart.png" alt="Корзина"/><span>3</span></a></div>
+            <div class="icons__item icons__item_burger"><img src="img/menu__burger.png" alt="Меню" class=""/><img src="img/menu__burger_close.png" alt="Закрыть" class="hidden"/></div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="banner__static">
+            <a href="#catalog" class="static__scroll"><span></span><span>Scroll to catalog</span></a>
+        </div>
+        <div class="banner__slider">
+            <div class="slider__item first">
+                <img src="img/banner_1.png" alt="">
+                <p class="background__text">Dell</p>
+                <p class="item__title">Новое поступление</p>
+                <p class="item__description">Лучшие товары от&nbsp;компании&nbsp;Dell</p>
+                <a href="#"><span class="arrow"><img src="img/arrow__right_white.png" alt=""></span>Подробнее</a>
+            </div>
+            <div class="slider__item">
+                <img src="img/banner_2.png" alt="">
+                <p class="background__text">Dell</p>
+                <p class="item__title">Выгодное предложение от&nbsp;Dell</p>
+                <p class="item__description">Лучшие товары от&nbsp;компании&nbsp;Dell</p>
+                <a href="#"><span class="arrow"><img src="img/arrow__right_white.png" alt=""></span>Подробнее</a>
+            </div>
+            <div class="slider__item">
+                <img src="img/banner_1.png" alt="">
+                <p class="background__text">Dell</p>
+                <p class="item__title">Новое поступление</p>
+                <p class="item__description">Лучшие товары от&nbsp;компании&nbsp;Dell</p>
+                <a href="#"><span class="arrow"><img src="img/arrow__right_white.png" alt=""></span>Побробнее</a>
+            </div>
+            <div class="slider__item">
+                <img src="img/banner_2.png" alt="">
+                <p class="background__text">Dell</p>
+                <p class="item__title">Выгодное предложение от&nbsp;Dell</p>
+                <p class="item__description">Лучшие товары от&nbsp;компании&nbsp;Dell</p>
+                <a href="#"><span class="arrow"><img src="img/arrow__right_white.png" alt=""></span>Подробнее</a>
+            </div>
+            <div class="slider__item">
+                <img src="img/banner_1.png" alt="">
+                <p class="background__text">Dell</p>
+                <p class="item__title">Новое поступление</p>
+                <p class="item__description">Лучшие товары от&nbsp;компании&nbsp;Dell</p>
+                <a href="#"><span class="arrow"><img src="img/arrow__right_white.png" alt=""></span>Побробнее</a>
+            </div>
+        </div>
+    </section>
+    <section class="catalog container" id="catalog">
+        <div class="catalog__text">
+            <p class="text__title">Каталог товаров от&nbsp;Dell</p>
+            <p class="text__description">Наша компания является зарегистрированным и&nbsp;официальным партнером Dell в России.</p>
+            <a href="#"><span class="arrow"><img src="img/arrow__right_white.png" alt=""></span>В каталог</a>
+        </div>
+        <a class="catalog__item" href="#">
+            <span class="item__id">01</span><img src="img/catalog__1.png" alt="Ноутбуки">
+            <p class="item__number"><span>105</span> товаров</p>
+            <p>Ноутбуки</p>
+        </a>
+        <a class="catalog__item" href="#">
+            <span class="item__id">02</span><img src="img/catalog__2.png" alt="Персональные компьютеры">
+            <p class="item__number"><span>65</span> товаров</p>
+            <p>Персональные компьютеры</p>
+        </a>
+        <a class="catalog__item" href="#">
+            <span class="item__id">03</span><img src="img/catalog__3.png" alt="Серверы">
+            <p class="item__number"><span>13</span> товаров</p>
+            <p>Серверы</p>
+        </a>
+        <a class="catalog__item" href="#">
+            <span class="item__id">04</span><img src="img/catalog__4.png" alt="Dell EMC">
+            <p class="item__number"><span>2345</span> товаров</p>
+            <p>Dell EMC</p>
+        </a>
+        <a class="catalog__item" href="#">
+            <span class="item__id">05</span><img src="img/catalog__5.png" alt="Запасные части к Dell EMC">
+            <p class="item__number"><span>195</span> товаров</p>
+            <p>Запасные части к Dell EMC</p>
+        </a>
+    </section>
+    <section class="advantages container">
+        <p class="background__text">best<br>quality</p>
+        <img src="img/advantages__image.png" alt="" class="advantages__image">
+        <div class="advantages__text">
+            <p class="text__title">Наши преимущества</p>
+            <p class="text__description">Оптимизация мощностей (расходов, социальных выплат и т.п.) позволили компании на 4,7% понизить цены по сравнению с конкурентами</p>
+            <a href="#"><span class="arrow"><img src="img/arrow__right_white.png" alt=""></span>Оставить заявку</a>
+        </div>
+        <div class="advantages__cards">
+            <div class="cards__item">
+                <img src="img/advantages__vector.png" alt="" class="item__vector"><span class="item__icon"><img src="img/advantages__1.png" alt=""></span>
+                <p class="item__text"><span>Самые выгодные и&nbsp;низкие&nbsp;цены</span><span>У нас самые выгодные и&nbsp;низкие&nbsp;цены</span></p>
+                <p class="item__description">В наличии широкий ассортимент, а&nbsp;также доступные цены 
+                    на&nbsp;ноутбуки&nbsp;Dell </p>
+                </div>
+            <div class="cards__item">
+                <img src="img/advantages__vector.png" alt="" class="item__vector"><span class="item__icon"><img src="img/advantages__2.png" alt=""></span>
+                <p class="item__text">Авторизованный сервисный центр DELL</p>
+                <p class="item__description">Сертифицированный сервисный центр по ремонту техники Dell в России и странах СНГ</p>
+            </div>
+            <div class="cards__item">
+                <img src="img/advantages__vector.png" alt="" class="item__vector"><span class="item__icon"><img src="img/advantages__3.png" alt=""></span>
+                <p class="item__text">Высокий уровень технической экспертизы</p>
+                <p class="item__description">Мы прошли аттестацию в виде тестирования, где показали высокий уровень знаний</p>
+            </div>
+            <div class="cards__item">
+                <img src="img/advantages__vector.png" alt="" class="item__vector"><span class="item__icon"><img src="img/advantages__4.png" alt=""></span>
+                <p class="item__text"><span>Официальный партнер DELL</span><span>Мы являемся официальным партнером DELL</span></p>
+                <p class="item__description"><span>Официальный</span><span>Мы лучшый официальный</span> поставщик продукции DELL в России 
+                    и&nbsp;странах СНГ</p>
+            </div>
+        </div>
+    </section>
+    <section class="news container">
+        <p class="news__title">Последние новости</p>
+        <p class="news__description">Вы можете посмотреть ещё больше интересных новостей и узнать о последних новинках, перейдя по кнопке</p>
+        <a href="#">Все новости<span class="arrow"><img src="img/arrow__right_white.png" alt=""></span></a>
+        <div class="news__cards">
+            <div class="cards__item">
+                <div class="item__date"><span class="date__day">11</span><span>июля</span></div>
+                <div class="item__container">
+                    <img src="img/news__1.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="415" height="146" viewBox="0 0 415 146" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H257.171C268.101 0 278.555 4.47282 286.103 12.3786L301.413 28.4155C303.533 30.6362 305.883 32.586 308.408 34.2419C312.721 36.7707 321.189 40.7321 327 32.5C327.083 32.3829 327.167 32.2674 327.252 32.1534C332.985 21.9182 343.934 15 356.5 15C367.504 15 377.27 20.306 383.377 28.4992C383.384 28.4994 383.392 28.4997 383.4 28.4999C383.439 28.5623 383.478 28.6257 383.518 28.69C384.343 29.8134 385.1 30.99 385.782 32.2139C387.955 35.0964 391.147 37.3914 396.726 34.2626C406.761 27.6832 413.694 16.6952 414.694 3.91473L415 0V101C415 125.853 394.853 146 370 146H0V0Z" fill="white"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="324" height="143" viewBox="0 0 324 143" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M196.922 0H0V143H279C303.853 143 324 122.853 324 98V0C323.117 11.3873 316.824 21.1434 307.76 26.827C303.816 28.9875 301.974 27.4769 300.2 24.7809C299.319 22.9666 298.247 21.2618 297.012 19.6924C296.847 19.4604 296.676 19.2293 296.5 19L296.447 18.9983C291.311 12.8854 283.609 9 275 9C263.942 9 254.381 15.4104 249.831 24.7177C247.434 27.7308 244.984 28.0434 242.728 27.3114C239.039 25.3153 235.652 22.7324 232.712 19.6255L225.976 12.5069C218.421 4.52312 207.913 0 196.922 0Z" fill="white"/>
+                    </svg>
+                    <p class="container__title"><span>GE использует технологии Dell</span><a href="#"><img src="img/arrow__right_white.png" alt=""></a></p>
+                    <p class="container__description">Вы можете посмотреть ещё большe интересных новостей</p>
+                </div>
+            </div>
+            <div class="cards__item">
+                <div class="item__date"><span class="date__day">11</span><span>июля</span></div>
+                <div class="item__container">
+                    <img src="img/news__2.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="415" height="146" viewBox="0 0 415 146" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H257.171C268.101 0 278.555 4.47282 286.103 12.3786L301.413 28.4155C303.533 30.6362 305.883 32.586 308.408 34.2419C312.721 36.7707 321.189 40.7321 327 32.5C327.083 32.3829 327.167 32.2674 327.252 32.1534C332.985 21.9182 343.934 15 356.5 15C367.504 15 377.27 20.306 383.377 28.4992C383.384 28.4994 383.392 28.4997 383.4 28.4999C383.439 28.5623 383.478 28.6257 383.518 28.69C384.343 29.8134 385.1 30.99 385.782 32.2139C387.955 35.0964 391.147 37.3914 396.726 34.2626C406.761 27.6832 413.694 16.6952 414.694 3.91473L415 0V101C415 125.853 394.853 146 370 146H0V0Z" fill="white"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="324" height="143" viewBox="0 0 324 143" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M196.922 0H0V143H279C303.853 143 324 122.853 324 98V0C323.117 11.3873 316.824 21.1434 307.76 26.827C303.816 28.9875 301.974 27.4769 300.2 24.7809C299.319 22.9666 298.247 21.2618 297.012 19.6924C296.847 19.4604 296.676 19.2293 296.5 19L296.447 18.9983C291.311 12.8854 283.609 9 275 9C263.942 9 254.381 15.4104 249.831 24.7177C247.434 27.7308 244.984 28.0434 242.728 27.3114C239.039 25.3153 235.652 22.7324 232.712 19.6255L225.976 12.5069C218.421 4.52312 207.913 0 196.922 0Z" fill="white"/>
+                    </svg>
+                    <p class="container__title"><span>GE использует технологии Dell</span><a href="#"><img src="img/arrow__right_white.png" alt=""></a></p>
+                    <p class="container__description">Вы можете посмотреть ещё большe интересных новостей</p>
+                </div>
+            </div>
+            <div class="cards__item">
+                <div class="item__date"><span class="date__day">11</span><span>июля</span></div>
+                <div class="item__container">
+                    <img src="img/news__3.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="415" height="146" viewBox="0 0 415 146" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H257.171C268.101 0 278.555 4.47282 286.103 12.3786L301.413 28.4155C303.533 30.6362 305.883 32.586 308.408 34.2419C312.721 36.7707 321.189 40.7321 327 32.5C327.083 32.3829 327.167 32.2674 327.252 32.1534C332.985 21.9182 343.934 15 356.5 15C367.504 15 377.27 20.306 383.377 28.4992C383.384 28.4994 383.392 28.4997 383.4 28.4999C383.439 28.5623 383.478 28.6257 383.518 28.69C384.343 29.8134 385.1 30.99 385.782 32.2139C387.955 35.0964 391.147 37.3914 396.726 34.2626C406.761 27.6832 413.694 16.6952 414.694 3.91473L415 0V101C415 125.853 394.853 146 370 146H0V0Z" fill="white"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="324" height="143" viewBox="0 0 324 143" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M196.922 0H0V143H279C303.853 143 324 122.853 324 98V0C323.117 11.3873 316.824 21.1434 307.76 26.827C303.816 28.9875 301.974 27.4769 300.2 24.7809C299.319 22.9666 298.247 21.2618 297.012 19.6924C296.847 19.4604 296.676 19.2293 296.5 19L296.447 18.9983C291.311 12.8854 283.609 9 275 9C263.942 9 254.381 15.4104 249.831 24.7177C247.434 27.7308 244.984 28.0434 242.728 27.3114C239.039 25.3153 235.652 22.7324 232.712 19.6255L225.976 12.5069C218.421 4.52312 207.913 0 196.922 0Z" fill="white"/>
+                    </svg>
+                    <p class="container__title"><span>GE использует технологии Dell</span><a href="#"><img src="img/arrow__right_white.png" alt=""></a></p>
+                    <p class="container__description">Вы можете посмотреть ещё большe интересных новостей</p>
+                </div>
+            </div>
+            <div class="cards__item">
+                <div class="item__date"><span class="date__day">11</span><span>июля</span></div>
+                <div class="item__container">
+                    <img src="img/news__4.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="415" height="146" viewBox="0 0 415 146" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H257.171C268.101 0 278.555 4.47282 286.103 12.3786L301.413 28.4155C303.533 30.6362 305.883 32.586 308.408 34.2419C312.721 36.7707 321.189 40.7321 327 32.5C327.083 32.3829 327.167 32.2674 327.252 32.1534C332.985 21.9182 343.934 15 356.5 15C367.504 15 377.27 20.306 383.377 28.4992C383.384 28.4994 383.392 28.4997 383.4 28.4999C383.439 28.5623 383.478 28.6257 383.518 28.69C384.343 29.8134 385.1 30.99 385.782 32.2139C387.955 35.0964 391.147 37.3914 396.726 34.2626C406.761 27.6832 413.694 16.6952 414.694 3.91473L415 0V101C415 125.853 394.853 146 370 146H0V0Z" fill="white"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="324" height="143" viewBox="0 0 324 143" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M196.922 0H0V143H279C303.853 143 324 122.853 324 98V0C323.117 11.3873 316.824 21.1434 307.76 26.827C303.816 28.9875 301.974 27.4769 300.2 24.7809C299.319 22.9666 298.247 21.2618 297.012 19.6924C296.847 19.4604 296.676 19.2293 296.5 19L296.447 18.9983C291.311 12.8854 283.609 9 275 9C263.942 9 254.381 15.4104 249.831 24.7177C247.434 27.7308 244.984 28.0434 242.728 27.3114C239.039 25.3153 235.652 22.7324 232.712 19.6255L225.976 12.5069C218.421 4.52312 207.913 0 196.922 0Z" fill="white"/>
+                    </svg>
+                    <p class="container__title"><span>GE использует технологии Dell</span><a href="#"><img src="img/arrow__right_white.png" alt=""></a></p>
+                    <p class="container__description">Вы можете посмотреть ещё большe интересных новостей</p>
+                </div>
+            </div>
+            <div class="cards__item">
+                <div class="item__date"><span class="date__day">11</span><span>июля</span></div>
+                <div class="item__container">
+                    <img src="img/news__5.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="415" height="146" viewBox="0 0 415 146" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H257.171C268.101 0 278.555 4.47282 286.103 12.3786L301.413 28.4155C303.533 30.6362 305.883 32.586 308.408 34.2419C312.721 36.7707 321.189 40.7321 327 32.5C327.083 32.3829 327.167 32.2674 327.252 32.1534C332.985 21.9182 343.934 15 356.5 15C367.504 15 377.27 20.306 383.377 28.4992C383.384 28.4994 383.392 28.4997 383.4 28.4999C383.439 28.5623 383.478 28.6257 383.518 28.69C384.343 29.8134 385.1 30.99 385.782 32.2139C387.955 35.0964 391.147 37.3914 396.726 34.2626C406.761 27.6832 413.694 16.6952 414.694 3.91473L415 0V101C415 125.853 394.853 146 370 146H0V0Z" fill="white"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="324" height="143" viewBox="0 0 324 143" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M196.922 0H0V143H279C303.853 143 324 122.853 324 98V0C323.117 11.3873 316.824 21.1434 307.76 26.827C303.816 28.9875 301.974 27.4769 300.2 24.7809C299.319 22.9666 298.247 21.2618 297.012 19.6924C296.847 19.4604 296.676 19.2293 296.5 19L296.447 18.9983C291.311 12.8854 283.609 9 275 9C263.942 9 254.381 15.4104 249.831 24.7177C247.434 27.7308 244.984 28.0434 242.728 27.3114C239.039 25.3153 235.652 22.7324 232.712 19.6255L225.976 12.5069C218.421 4.52312 207.913 0 196.922 0Z" fill="white"/>
+                    </svg>
+                    <p class="container__title"><span>GE использует технологии Dell</span><a href="#"><img src="img/arrow__right_white.png" alt=""></a></p>
+                    <p class="container__description">Вы можете посмотреть ещё большe интересных новостей</p>
+                </div>
+            </div>
+            <div class="cards__item">
+                <div class="item__date"><span class="date__day">11</span><span>июля</span></div>
+                <div class="item__container">
+                    <img src="img/news__6.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="415" height="146" viewBox="0 0 415 146" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H257.171C268.101 0 278.555 4.47282 286.103 12.3786L301.413 28.4155C303.533 30.6362 305.883 32.586 308.408 34.2419C312.721 36.7707 321.189 40.7321 327 32.5C327.083 32.3829 327.167 32.2674 327.252 32.1534C332.985 21.9182 343.934 15 356.5 15C367.504 15 377.27 20.306 383.377 28.4992C383.384 28.4994 383.392 28.4997 383.4 28.4999C383.439 28.5623 383.478 28.6257 383.518 28.69C384.343 29.8134 385.1 30.99 385.782 32.2139C387.955 35.0964 391.147 37.3914 396.726 34.2626C406.761 27.6832 413.694 16.6952 414.694 3.91473L415 0V101C415 125.853 394.853 146 370 146H0V0Z" fill="white"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="324" height="143" viewBox="0 0 324 143" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M196.922 0H0V143H279C303.853 143 324 122.853 324 98V0C323.117 11.3873 316.824 21.1434 307.76 26.827C303.816 28.9875 301.974 27.4769 300.2 24.7809C299.319 22.9666 298.247 21.2618 297.012 19.6924C296.847 19.4604 296.676 19.2293 296.5 19L296.447 18.9983C291.311 12.8854 283.609 9 275 9C263.942 9 254.381 15.4104 249.831 24.7177C247.434 27.7308 244.984 28.0434 242.728 27.3114C239.039 25.3153 235.652 22.7324 232.712 19.6255L225.976 12.5069C218.421 4.52312 207.913 0 196.922 0Z" fill="white"/>
+                    </svg>
+                    <p class="container__title"><span>GE использует технологии Dell</span><a href="#"><img src="img/arrow__right_white.png" alt=""></a></p>
+                    <p class="container__description">Вы можете посмотреть ещё большe интересных новостей</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+        <p class="background__text">our<br>contacts</p>
+        <div class="contacts__container">
+            <div class="container_left">
+                <p class="container__title">Наши контакты</p>
+                <p class="container__description">Dы можете связаться с нашим онлайн-консультантом</p>
+                <div class="container__contacts">
+                    <div class="contacts__item">
+                        <img src="img/contacts__icon_location.png" alt="" class="item__icon">
+                        <p class="item__text">
+                            <span>Адрес</span>
+                            <span>Москва, ул. 3-я Хорошевская, дом 2, строение 1</span>
+                        </p>
+                    </div>
+                    <div class="contacts__item">
+                        <img src="img/contacts__icon_sms.png" alt="" class="item__icon">
+                        <p class="item__text">
+                            <span>E-mail</span>
+                            <a href="mailto:dell_ru@gmail.com">dell_ru@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="contacts__item">
+                        <img src="img/contacts__icon_call.png" alt="" class="item__icon">
+                        <p class="item__text">
+                            <span>Телефон</span>
+                            <a href="tel:+74957370601">+7 495 737-06-01</a>
+                            <a href="tel:+74957370601">+7 495 737-06-01</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="container__socials">
+                    <a href="#"><img src="img/socials_1.png" alt=""></a>
+                    <a href="#"><img src="img/socials_2.png" alt=""></a>
+                </div>
+            </div>
+            <div class="container_right">
+                <p class="container__title">Оставьте заявку</p>
+                <p class="container__description">Оставьте свой номер, и мы перезвоним Вам.</p>
+                <form action="" onsubmit="return validate();">
+                    <div class="container__form">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" id="name" required>
+                        <label for="phone">Номер телефона</label>
+                        <input type="tel" id="phone" id="phone" required>
+                        <label for="comment">Комментарий</label>
+                        <textarea name="comment" id="comment" required></textarea>
+                        <button><span class="arrow"><img src="img/arrow__right_white.png" alt=""></span><span>Заказать</span></button>
+                    </div>
+                </form>
+            </div>
+            <img src="img/contacts__phone.png" alt="">
+        </div>
+    </section>
+    <footer class="footer container">
+        <p class="background__text">DELL</p>
+        <div class="footer__top">
+            <img src="img/footer__logo.png" alt="Dell">
+            <div class="top__block">
+                <p class="block__title">Каталог</p>
+                <div class="block__container">
+                    <a href="#">Ноутбуки</a>
+                    <a href="#">Персональные компьютеры</a>
+                    <a href="#">Серверы</a>
+                    <a href="#">Dell EMC</a>
+                    <a href="#">Запасные части к Dell EMC</a>
+                </div>
+            </div>
+            <div class="top__block">
+                <p class="block__title">Личный кабинет</p>
+                <div class="block__container">
+                    <a href="#">Профиль</a>
+                    <a href="#">История заказов</a>
+                    <a href="#">SMS-уведомления</a>
+                    <a href="#">Избранное</a>
+                    <a href="#">Сравнение товаров</a>
+                </div>
+            </div>
+            <div class="top__block">
+                <p class="block__title">Помощь</p>
+                <div class="block__container">
+                    <a href="#">Доставка и оплата</a>
+                    <a href="#">Контакты</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Наш АСЦ</a>
+                </div>
+            </div>
+        </div>
+        <div class="fotter__bottom">
+            <div class="bottom__block">
+                <p>Адрес</p>
+                <p>Москва, ул. 3-я Хорошевская, дом 2, строение 1</p>
+            </div>
+            <div class="bottom__block">
+                <p>Телефон</p>
+                <p><a href="tel:+74957370601">+7 495 737-06-01</a>, <a href="tel:+74957370601">+7 495 737-06-01</a></p>
+            </div>
+            <div class="bottom__block">
+                <p>E-mail</p>
+                <p><a href="mailto:dell_ru@gmail.com">dell_ru@gmail.com</a></p>
+            </div>
+            <div class="bottom__socials">
+                <a href="#"><img src="img/socials_1.png" alt=""></a>
+                <a href="#"><img src="img/socials_2.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/dependencyLibs/inputmask.dependencyLib.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/inputmask/inputmask.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
